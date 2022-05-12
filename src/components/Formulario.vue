@@ -50,12 +50,12 @@
         </tr>
      </thead>
      <tbody>
-       <tr>
-        <div v-if="(formState.$valid)">
+       <tr v-if="(formState.$valid)">
+        
           <td>{{ formData.nombre}}</td>
           <td>{{ formData.edad}} </td>
           <td>{{ formData.email}}</td>
-        </div>
+      
         </tr>
     </tbody>
    </table>
