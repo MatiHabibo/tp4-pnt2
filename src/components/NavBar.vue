@@ -27,11 +27,11 @@
               <a class="nav-link" href="#">Formulario</a>
             </router-link>
           </li>
-          <!-- <li class="nav-item">
-            <router-link to="/elOtro">
-              <a class="nav-link" href="#">El otro</a>
+          <li class="nav-item">
+            <router-link to="/pedir-datos">
+              <a class="nav-link" href="#">Pedir Datos</a>
             </router-link>
-          </li> -->
+          </li>
 
         </ul>
       </div>

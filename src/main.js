@@ -8,6 +8,7 @@ import 'bootstrap'
 
 import './form'
 import { router } from './router'
+import './axios'
 
 Vue.config.productionTip = false
 
