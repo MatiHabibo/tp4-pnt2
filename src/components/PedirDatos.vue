@@ -1,18 +1,18 @@
 <template>
 
   <section class="src-components-pedir-datos">
-    <h1>src-components-pedir-datos Component</h1>
+    <h1>Traer datos de mockapi.io</h1>
      <button class="btn btn-warning my-3 mr-3" @click="getPostsXHRcb()">
-        Pedir XHR (callback)
+         XHR - callback
       </button>
       <button class="btn btn-success my-3 mr-3" @click="getPostsXHRPromise()">
-        Pedir Pomise (callback)
+        Pomise - callback
       </button>
       <button class="btn btn-success my-3 mr-3" @click="getPostsFetch()">
-        Pedir FETCH
+        FETCH
       </button>
         <button class="btn btn-success my-3 mr-3" @click="getPostsAxios()">
-        Pedir AXIOS
+        AXIOS
         </button>
       <button class="btn btn-danger my-3" @click="users = []">Clear</button>
   

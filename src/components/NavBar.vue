@@ -1,7 +1,6 @@
 <template>
 
   <section class="src-components-nav-bar">
-    <h1>src-components-nav-bar Component</h1>
 
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <!-- <div class="container-fluid"> -->

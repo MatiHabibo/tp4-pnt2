@@ -50,8 +50,13 @@
         </tr>
      </thead>
      <tbody>
+
+       <tr v-for="(ing, index) in ingresos" :key="index">
+          <td>{{ ing.nombre}}</td>
+          <td>{{ ing.edad}} </td>
+          <td>{{ ing.email}}</td>
+       </tr>
        <tr v-if="(formState.$valid)">
-        
           <td>{{ formData.nombre}}</td>
           <td>{{ formData.edad}} </td>
           <td>{{ formData.email}}</td>
@@ -83,6 +88,7 @@
       return {
         formState : {},
         formData : this.initialData(),
+        ingresos:[{}],
         nomMin: 5,
         nomMax : 15,
         edMin: 18,
@@ -98,12 +104,11 @@
         }
       },
       send(){
-        this.formData = this.initialData() 
+        console.log({...this.formData}) 
+        this.ingresos.push(this.formData);
         this.formState._reset() 
+        this.formData = this.initialData()
       },
-      appendData(){
-          
-      }
     },
     computed: {
 
